@@ -11,6 +11,13 @@
 **Type Language** is a declarative type language inspired by static analyzers
 like [PHPStan](https://phpstan.org/) and [Psalm](https://psalm.dev/docs/).
 
-## Documentation
+## Spec
 
-Documentation is not available yet.
+The Type Language specification is edited in the markdown files found in
+[/spec](https://github.com/php-type-language/spec) the latest release of which
+is published at https://php-type-language.github.io/spec/.
+
+The latest draft specification can be found at
+https://php-type-language.github.io/spec/draft/ which tracks the latest commit
+to the master branch in [spec](https://github.com/php-type-language/spec)
+repository.
