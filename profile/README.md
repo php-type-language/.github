@@ -14,13 +14,35 @@ $type = new TypeLang\Parser\TypeParser()
     ->parse('array<non-empty-string, list<User>|null>');
 ```
 
-| Package | What it does |
-|---|---|
-| [parser](https://github.com/php-type-language/parser) | Type string to AST |
-| [phpdoc](https://github.com/php-type-language/phpdoc) | DocBlock to description and tags |
-| [mapper](https://github.com/php-type-language/mapper) | Maps data to objects and back by these types |
-| [types](https://github.com/php-type-language/types) | AST nodes |
-| [printer](https://github.com/php-type-language/printer) | AST back to a string |
-| [reader](https://github.com/php-type-language/reader) | PHP Reflection to AST |
+<table>
+    <tr>
+        <th width="300">Package</th>
+        <th width="1000">What it does</th>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/php-type-language/parser">parser</a></td>
+        <td>Type string to AST</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/php-type-language/types">types</a></td>
+        <td>AST nodes</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/php-type-language/printer">printer</a></td>
+        <td>AST back to a string</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/php-type-language/reader">reader</a></td>
+        <td>PHP Reflection to AST</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/php-type-language/phpdoc">phpdoc</a></td>
+        <td>DocBlock to description and tags</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/php-type-language/mapper">mapper</a></td>
+        <td>Maps data to objects and back by these types</td>
+    </tr>
+</table>
 
 [Documentation](https://typelang.dev) · [Syntax Reference](https://typelang.dev/language)
